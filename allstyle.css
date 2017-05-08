@@ -1,0 +1,111 @@
+@CHARSET "UTF-8";
+#nav {
+	margin-left: -8px;
+	margin-right: -8px;
+	line-height: 35px;
+	background-color: #660099;
+	width: 100.25%;
+	float: left;
+	padding: 5px;
+	font-family: arial;
+}
+
+a {
+	text-decoration: none;
+}
+
+table {
+	/* border:1px solid black;*/
+	
+}
+
+th {
+	padding: 0 15px 0 15px;
+	/*border:1px solid black;*/
+}
+
+#header {
+	z-index: 1;
+	/*position: fixed;*/
+	/*width: 100%;*/
+	margin-top: -35px;
+	margin-left: -8px;
+	margin-right: -8px;
+	height: 105px;
+	background-color: #6600CC;
+	/*margin-bottom: 10px;*/
+}
+
+#header h1 {
+	/*z-index: 1;*/
+	text-align: center;
+	line-height: 95px;
+	margin-left: 150px;
+	margin-top: 35px;
+	padding-bottom: -26px;
+	font-size: 43px;
+	font-style: italic;
+	font-family: "Tahoma";
+	/*font-weight:bold;*/
+	color: #fffff3;
+}
+
+#highlight {
+	color: #6600CC;
+	font-family: arial;
+	font-size: 24px;
+	background-color: #E6E6FA;
+	width: 1210;
+}
+
+b7 {
+	color: white;
+	font-family: arial;
+	font-size: 30px;
+}
+
+b2 {
+	color: ForestGreen;
+	font-family: arial;
+	font-size: 12px;
+}
+
+b3 {
+	color: black;
+	font-family: arial;
+	font-size: 8px;
+}
+
+b4 {
+	color: white;
+	font-family: arial;
+	font-size: 16px;
+}
+
+.my-container {
+	position: relative;
+	overflow: hidden;
+}
+
+.my-container b1 {
+	padding: 200px;
+	position: relative;
+	z-index: 2;
+}
+
+.my-container img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto%;
+	opacity: 0.5;
+}
+body{
+	background-image:url('http://kulturwerke-deutschland.de/wp-content/uploads/2013/08/slider-3.jpg');
+	background-repeat:no-repeat;
+	background-size:1900px 990px ;
+
+
+	
+}

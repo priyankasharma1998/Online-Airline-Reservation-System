@@ -1,0 +1,132 @@
+@CHARSET "UTF-8";
+ul {
+	/*background-color:#daa520*/;
+	margin-right: -10px;
+	margin-left: -16px;
+	margin-top: -16px;
+	/*border:1px solid #3b5998*/;
+	padding: 0;
+	width: 1290px;
+	height: 60px;
+	list-style-type: none;
+	overflow: hidden;
+}
+li {
+	float: left;
+	/*border:1px solid black;*/
+	width: 100px;
+	height: 60px;
+	margin-right: 20px;
+	padding: 25px;
+	font-size: 20px;
+	color: white;
+}
+li a {
+	display: block;
+	/*font-size: 20px;*/
+	/*text-align: center;*/
+	/*background-color:#FFA500;*/
+	color: white;
+	margin-top: -20px;
+	padding-top: 20px;
+	text-decoration: none;
+}
+li a:active {
+	background-color:#111111;
+	
+}
+#cat1 {
+	float: right;
+	padding-top: -8px;
+}
+#cat2 {
+	float: right;
+	width: 200px;
+}
+
+#topic {
+	width: 200px;
+}
+
+#topic1 {
+	width: 300px;
+}
+    #shdg{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+body{
+				
+				background-image:url('http://kulturwerke-deutschland.de/wp-content/uploads/2013/08/slider-3.jpg');
+				background-repeat:no-repeat;
+				background-size:1900px 990px ;
+	}
+	#nav {
+	margin-left: 400px;
+		margin-right: -18px;
+	  line-height:30px;
+	 /*border:1px solid black;*/
+	  background-color:#6600CC;
+	  float:left;
+	  padding:5px;	
+	  font-family:arial;
+	}
+	a{
+		text-decoration:none;
+	}
+	table {
+   /* border:5px solid black;*/
+}
+table, th, td {
+    border: 1px grey;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: grey;
+    color: white;
+}
+/*th
+{
+    padding:0 15px 0 15px;
+    /*border:1px solid black;*/
+}*/
+#header {
+	z-index: 1;
+	/*position: fixed;*/
+	width: 105%;
+	margin-top: -35px;
+	margin-left: -8px;
+	margin-right: -4px;
+	height: 110px;
+	background-color:#6600CC;
+	/*margin-bottom: 10px;*/
+}
+#header {
+            font-family:arial;
+            font-size: 20px;
+            font-weight:bold;
+            text-align:center;
+            border: 1px solid purple;
+            width: 1380px;
+           	background-color:purple;
+            color:white;
+            margin-top: -25px;
+			margin-left: -15px;
+			height: 105px;
+        }

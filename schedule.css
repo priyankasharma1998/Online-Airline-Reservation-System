@@ -1,0 +1,154 @@
+@CHARSET "ISO-8859-1";
+
+
+#nav {
+	margin-left: -8px;
+	margin-right: -8px;
+	line-height: 35px;
+	background-color: #660099;
+	width: 100.25%;
+	float: left;
+	padding: 5px;
+	font-family: arial;
+}
+
+a {
+	text-decoration: none;
+}
+
+table {
+	/* border:1px solid black;*/
+	
+}
+
+th {
+	padding: 0 15px 0 15px;
+	/*border:1px solid black;*/
+}
+
+#header {
+	z-index: 1;
+	/*position: fixed;*/
+	/*width: 100%;*/
+	margin-top: -35px;
+	margin-left: -8px;
+	margin-right: -8px;
+	height: 105px;
+	background-color: Purple;
+	/*margin-bottom: 10px;*/
+}
+
+
+
+#header h1 {
+	/*z-index: 1;*/
+	text-align: center;
+	line-height: 95px;
+	margin-left: 150px;
+	margin-top: 35px;
+	padding-bottom: -26px;
+	font-size: 43px;
+	font-style: italic;
+	font-family: "Tahoma";
+	/*font-weight:bold;*/
+	color: #fffff3;
+}
+
+	ul {
+	/*background-color:#daa520*/;
+	margin-right: -10px;
+	margin-left: -16px;
+	margin-top: -16px;
+	/*border:1px solid #3b5998*/;
+	padding: 0;
+	width: 1290px;
+	height: 60px;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+/*li {
+	float: left;
+	/*border:1px solid black;*/
+	width: 100px;
+	height: 60px;
+	margin-right: 20px;
+	padding: 25px;
+	font-size: 20px;
+	color: white;
+}*/
+
+
+
+li a {
+	display: block;
+	/*font-size: 20px;*/
+	/*text-align: center;*/
+	/*background-color:#FFA500;*/
+	color: white;
+	margin-top: -20px;
+	padding-top: 20px;
+	text-decoration: none;
+}
+
+
+body{
+				
+				background-image:url('http://kulturwerke-deutschland.de/wp-content/uploads/2013/08/slider-3.jpg');
+				background-repeat:no-repeat;
+				background-size:1900px 990px ;
+	}
+	
+	 /*#header {
+            font-family:arial;
+            font-size: 20px;
+            font-weight:bold;
+            text-align:center;
+            border: 1px solid blue;
+            width: 1210;
+            background-color:#6600CC;
+            color:white;
+            margin-top: -25px;
+			margin-left: -15px;
+			height: 105px;
+        }*/
+        
+#list th {
+	
+	color:white ;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 20px;
+	background-color: #660099;
+	
+	border:1px solid black;
+}
+#list table{
+	
+	border-collapse:collapse;
+	width:100%
+}
+#list{
+	margin-left:-300px;
+		
+	padding-left:30 px;
+	height:800%;
+	width:170%;
+	margin-top: 40px;
+}
+
+#list td{
+	
+	color:blue ;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 20px;
+	text-align:center;
+	background-color:#F0F8FF;
+	border:1px solid black;
+}
+
+#list tr{
+	border:1px soild red;
+	color:white;
+}

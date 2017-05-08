@@ -1,0 +1,112 @@
+@CHARSET "ISO-8859-1";
+
+			body{
+				
+				background-image:url('http://kulturwerke-deutschland.de/wp-content/uploads/2013/08/slider-3.jpg');
+				background-repeat:no-repeat;
+				background-size:1900px 990px ;
+				}
+        
+        
+        b7 {
+        	color: white;
+        	font-family: arial;
+        	font-size: 30px;
+        }
+        
+        b2 {
+        	color: ForestGreen;
+        	font-family: arial;
+        	font-size: 12px;
+        }
+        
+        b3 {
+        	color: black;
+        	font-family: arial;
+        	font-size: 8px;
+        }
+        
+        b4 {
+        	color:white;
+        	font-family: arial;
+        	font-size: 16px;
+        	
+        }
+        #highlight{
+        		
+        	color:#6600CC;
+        	font-family: arial;
+        	font-size: 16px;
+        	background-color:#E6E6FA;
+        	width:1210;	
+        
+        }
+        b5 {
+        	color: black;
+        	font-family: arial;
+        	font-size: 10px;
+        }
+        
+        b6 {
+        	color: blue;
+        	font-family: arial;
+        	font-size: 14px;
+        }
+        #header {
+            font-family:arial;
+            font-size: 20px;
+            font-weight:bold;
+            text-align:center;
+            border: 1px solid blue;
+            width: 1210;
+            background-color:#6600CC;
+            color:white;
+            margin-top: -25px;
+			margin-left: -15px;
+			height: 105px;
+        }
+        #nav {
+           line-height:30px;
+           background-color:#eeeeee;
+           height:800px;
+           width:200px;
+           float:left;
+           padding:5px;	
+           font-family:arial;
+           font-size: 16px;
+           font-weight: bold;
+           border: 1px solid ForestGreen;
+        }
+        #section {
+
+            width:1250px;
+            height:508px;
+            float:left;
+            padding:1px;
+            color:blue;	
+            font-family:arial;
+            margin-top:20px;
+            margin-right:-100px;
+            font-weight:bold;
+            border:5 px solid red ;
+        	
+        	
+        }
+        .my-container {
+           position: relative;
+           overflow: hidden;
+        }
+        .my-container b1 {
+           padding: 200px;
+           position: relative;
+           z-index: 2;
+        } 
+        .my-container img {
+           position: absolute;
+           left: 0;
+           top: 0;
+           width: 100%;
+           height: auto%;
+           opacity: 0.5;
+        }
+	    

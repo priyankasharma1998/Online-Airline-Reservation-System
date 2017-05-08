@@ -1,0 +1,143 @@
+@CHARSET "ISO-8859-1";
+
+ul {
+	/*background-color:#daa520*/;
+	margin-right: -10px;
+	margin-left: -16px;
+	margin-top: -16px;
+	/*border:1px solid #3b5998*/;
+	padding: 0;
+	width: 1290px;
+	height: 60px;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+	/*border:1px solid black;*/
+	width: 50px;
+	height: 60px;
+	margin-right: 20px;
+	padding: 25px;
+	font-size: 20px;
+	color: white;
+}
+
+#cat1 {
+	float: right;
+	padding-top: -8px;
+	width: 150px;
+}
+#cat2 {
+	float: right;
+	width: 250px;
+}
+
+#topic {
+	width: 150px;
+}
+
+#topic1 {
+	width: 150px;
+}
+#topic2{
+	width:200px;
+}
+
+li a {
+	display: block;
+	/*font-size: 20px;*/
+	/*text-align: center;*/
+	/*background-color:#FFA500;*/
+	color: white;
+	margin-top: -20px;
+	padding-top: 20px;
+	text-decoration: none;
+}
+
+/*li a:hover{
+	background-color:#ADD8E6;
+	width:100px;
+	height: 99px;
+	
+	}*/
+
+body{
+				
+				background-image:url('http://kulturwerke-deutschland.de/wp-content/uploads/2013/08/slider-3.jpg');
+				background-repeat:no-repeat;
+				background-size:1900px 990px ;
+	}
+	
+ #header {
+            font-family:arial;
+            font-size: 20px;
+            font-weight:bold;
+            text-align:center;
+            border: 1px solid purple;
+            width: 105%;
+           	background-color:purple;
+            color:white;
+            margin-top: -25px;
+			margin-left: -15px;
+			height: 105px;
+        }
+ #table1{
+ 		width:80%;
+ 	}
+#tr1{
+	
+	
+	height:80px;
+}        
+
+th {
+	
+	color:blue ;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 20px;
+	background-color:#ADD8E6;
+	border:2 px solid black;
+}
+table{
+	border-collapse:collapse;
+	width:100%;
+	
+}
+th{
+	border:1px solid blue;
+}
+#list{
+		
+	padding-left:30 px;
+	height:800%;
+	margin-top: 20px;
+}
+#list1{
+		
+	padding-left:30 px;
+	height:800%;
+	padding-left:200px;
+	margin-top: 20px;
+}
+#feed{
+	border:1px solid blue;
+	background-color:blue;
+	color:white;
+	margin-top:30px;
+	width:100px;
+}
+
+#td1{
+	
+	color:blue ;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 20px;
+	text-align:center;
+	background-color:#F0F8FF;
+	border:1px solid blue;
+}
+

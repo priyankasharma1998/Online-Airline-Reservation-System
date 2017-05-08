@@ -1,0 +1,218 @@
+
+	#header {
+	z-index: 1;
+	/*position: fixed;*/
+	/*width: 100%;*/
+	margin-top: -35px;
+	margin-left: -8px;
+	margin-right: -8px;
+	height: 105px;
+	background-color:purple;
+	/*margin-bottom: 10px;*/
+}
+
+
+
+#header h1{
+	/*z-index: 1;*/
+	text-align: center;
+	line-height:95px;
+	margin-left: 150px;
+	margin-top: 35px;
+	padding-bottom: -26px;
+	font-size: 43px;
+	font-style: italic;
+	font-family: "Tahoma";
+	/*font-weight:bold;*/
+	color:white;
+}
+
+#email {
+	float:right;
+	margin-right: 30em;
+	font-size: 14px;
+	margin-top: -110px;
+	font-style: bold;
+	color: #000000;
+}
+
+#name2{
+	float:right;
+	margin-right: 20em;
+	font-size: 14.5px;
+	margin-top: -110px;
+	font-style: bold;
+	color: #000000;
+}
+#email1 {
+	float:right;
+	width: 11%;
+	margin-right:26.3em;
+	font-size: 14px;
+	margin-top: -110px;
+	color: #000000;
+	
+}
+#password {
+	float:right;
+	width: 11%;
+	margin-right: 15em;
+	font-size: 14px;
+	margin-top: -110px;
+	color: #000000;
+}
+
+#butto {
+	float:right;
+	margin-right: 10em;
+	font-size: 14px;
+	margin-top: -110px;
+	background-color: #D4AF37;
+	color: #fffff3;
+
+}
+#forgot {
+	float:right;
+	margin-right: 16.9em;
+	font-size: 14px;
+	margin-top: -82px;
+	background-color: #EEE8AA;
+	color: black;
+
+}
+
+.right {
+	position: relative;
+	margin-top: -20px;
+	width: 100%;
+	height: 650px;
+	background-color:#FFFFCC;
+	/*background-image: url("logo1.png");*/
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+}
+
+#para{
+	padding-top: 35px;
+	margin-left: 100px;
+	color: #162252;
+	font-size: 20px;
+	font-weight:bold;
+}
+
+#signn{
+	float: right;
+	color: black;
+	margin-top:-5%;
+	font-family: "arial";
+	font-size: 35px;
+	margin-right: 390px;
+}
+
+.item {
+	color: black;
+	background-color: #00728B;
+	border: 1px solid #032472;
+	color: #FFF;
+	font-family: Arial;
+	padding: 3px;
+	text-decoration: none;
+}
+
+#box2 {
+   width: 210px;
+   float: left;
+   padding: 0px;
+   border: 1px solid ForestGreen;
+   margin: 20;
+}
+
+#menu {
+	float: left;
+	border: 1px solid #000;
+	border-bottom: none;		/* avoid a double border */
+	clear: both;				/* clear:both makes sure the content div doesn't float next to this one but stays under it */
+	width:100%;
+	height:60px;
+	/*padding: 0 30px;*/
+	margin-top: 100px;
+	/*background-color: #FFF;*/
+	text-align: left;
+	font-size: 85%;
+}
+
+ul{
+	
+
+	margin-top:30px;
+	list-style-type:none;
+	overflow:hidden;
+
+}
+
+li a{
+	display:block;
+	padding-top:30px;
+	text-decoration: underline;
+	font-color:black;
+	
+}
+			
+#box2 {
+   width: 210px;
+   float: left;
+   padding: 0px;
+   border: 1px solid ForestGreen;
+   margin: 10;
+}
+#nav {
+   line-height:30px;
+  /* border:1px solid black;*/
+   height:450px;
+   width:200px;
+   float:left;
+   padding:5px;	
+   font-family:arial;
+}
+#box3 {
+   width: 1230px;
+   height: 460px;
+   padding: 0px;
+   border: 1px solid ForestGreen;
+   margin: 1;
+} 
+#login {
+    
+    width: 400px;
+    height:200px;
+    padding: 0px;
+    margin-top: 10px;
+    margin-right: 150px;
+    margin-left: 400px;
+}
+body{
+	background-image:url('http://kulturwerke-deutschland.de/wp-content/uploads/2013/08/slider-3.jpg');
+	background-repeat:no-repeat;
+	background-size:1900px 990px ;
+
+
+	
+}
+#cat1{
+		float:right;
+		padding-top: -8px;
+
+}
+#cat2{
+		float:right;
+		width:200px;
+}
+#topic{
+		width:200px;
+}
+#topic1{
+		width:300px;
+}
+	
+		
